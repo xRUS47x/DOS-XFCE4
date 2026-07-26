@@ -1,0 +1,17 @@
+progressbar trough {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_mid;
+    border-radius: 0px;
+    box-shadow: inset 0 0 0 4px @tone_mid, inset 0 0 0 2px @tone_darkest;
+    margin: 0px;
+    padding: 2px 2px;
+}
+
+progressbar progress {
+    background-color: @tone_light;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    margin: 0px;
+    padding: 0px;
+}

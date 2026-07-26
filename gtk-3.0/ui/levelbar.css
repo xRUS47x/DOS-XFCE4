@@ -1,0 +1,26 @@
+levelbar block {
+    background-color: @tone_light;
+    border: 2px solid @tone_light;
+    border-radius: 0px;
+    box-shadow: none;
+    margin: 1px 1px;
+    padding: 1px;
+}
+
+levelbar block.empty {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_mid;
+    border-radius: 0px;
+    box-shadow: none;
+    margin: 1px 1px;
+    padding: 1px;
+}
+
+levelbar trough {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_mid;
+    border-radius: 0px;
+    box-shadow: none;
+    margin: 1px 1px;
+    padding: 1px;
+}

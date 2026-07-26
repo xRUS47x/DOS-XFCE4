@@ -1,0 +1,9 @@
+separator {
+    background-color: @tone_dark;
+    background-image: none;
+    border: none;
+    color: transparent;
+    -gtk-icon-source: none;
+    min-height: 2px;
+    min-width: 2px;
+}

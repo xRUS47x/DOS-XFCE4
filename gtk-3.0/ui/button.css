@@ -1,0 +1,71 @@
+button,
+button.font,
+.inline-toolbar button {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_mid;
+    box-shadow: inset 0 0 0 2px @tone_darkest;
+    color: @tone_mid;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+button:hover,
+button.font:hover,
+.inline-toolbar button:hover {
+    background-color: @tone_light;
+    border: 2px solid @tone_light;
+    box-shadow: inset 0 0 0 2px @tone_light;
+    color: @tone_darkest;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+button:active,
+button:checked,
+button.font:active,
+button.font:checked,
+.inline-toolbar button:active,
+.inline-toolbar button:checked {
+    background-color: @tone_lightest;
+    border: 2px solid @tone_lightest;
+    box-shadow: inset 0 0 0 2px @tone_lightest;
+    color: @tone_darkest;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+button:disabled,
+button.font:disabled,
+.inline-toolbar button:disabled {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_dark;
+    box-shadow: inset 0 0 0 2px @tone_darkest;
+    color: @tone_dark;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+button > label {
+    color: @tone_mid;
+}
+
+button:hover > label {
+    color: @tone_darkest;
+}
+
+button:active > label,
+button:checked > label {
+    color: @tone_darkest;
+}
+
+button:disabled > label {
+    color: @tone_dark;
+}

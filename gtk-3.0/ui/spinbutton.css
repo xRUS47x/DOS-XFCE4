@@ -1,0 +1,128 @@
+spinbutton {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_mid;
+    box-shadow: inset 0 0 0 2px @tone_darkest;
+    color: @tone_darkest;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 2px;
+}
+
+spinbutton:focus {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_light;
+    box-shadow: inset 0 0 0 2px @tone_darkest;
+    color: @tone_darkest;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 2px;
+}
+
+spinbutton:disabled {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_dark;
+    box-shadow: inset 0 0 0 2px @tone_darkest;
+    color: @tone_mid;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 2px;
+}
+
+spinbutton label {
+    color: @tone_darkest;
+}
+
+spinbutton:focus label {
+    color: @tone_darkest;
+}
+
+spinbutton:disabled label {
+    color: @tone_mid;
+}
+
+spinbutton button {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_mid;
+    box-shadow: inset 0 0 0 2px @tone_darkest;
+    color: @tone_mid;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+spinbutton button:hover {
+    background-color: @tone_light;
+    border: 2px solid @tone_light;
+    box-shadow: inset 0 0 0 2px @tone_light;
+    color: @tone_darkest;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+spinbutton button:active,
+spinbutton button:checked {
+    background-color: @tone_lightest;
+    border: 2px solid @tone_lightest;
+    box-shadow: inset 0 0 0 2px @tone_lightest;
+    color: @tone_darkest;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+spinbutton button:disabled {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_dark;
+    box-shadow: inset 0 0 0 2px @tone_darkest;
+    color: @tone_dark;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+spinbutton button label {
+    color: @tone_mid;
+}
+
+spinbutton button:hover label {
+    color: @tone_darkest;
+}
+
+spinbutton button:active label,
+spinbutton button:checked label {
+    color: @tone_darkest;
+}
+
+spinbutton button:disabled label {
+    color: @tone_dark;
+}
+
+spinbutton entry {
+    background-color: @tone_light;
+    border: 2px solid @tone_light;
+    box-shadow: inset 0 0 0 2px @tone_light;
+    color: @tone_darkest;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+spinbutton entry:disabled {
+    background-color: @tone_dark;
+    border: 2px solid @tone_dark;
+    box-shadow: inset 0 0 0 2px @tone_dark;
+    color: @tone_mid;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}

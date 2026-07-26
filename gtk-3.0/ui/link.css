@@ -1,0 +1,65 @@
+button.link {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_darkest;
+    box-shadow: inset 0 0 0 2px @tone_darkest;
+    color: @tone_mid;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+button.link:hover {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_darkest;
+    box-shadow: inset 0 0 0 2px @tone_darkest;
+    color: @tone_light;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+button.link:active,
+button.link:checked {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_darkest;
+    box-shadow: inset 0 0 0 2px @tone_darkest;
+    color: @tone_lightest;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+button.link:disabled {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_darkest;
+    box-shadow: inset 0 0 0 2px @tone_darkest;
+    color: @tone_dark;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+button.link label {
+    color: @tone_mid;
+    text-decoration-line: underline;
+}
+
+button.link:hover label {
+    color: @tone_light;
+    text-decoration-line: underline;
+}
+
+button.link:active label,
+button.link:checked label {
+    color: @tone_lightest;
+    text-decoration-line: underline;
+}
+
+button.link:disabled label {
+    color: @tone_dark;
+    text-decoration-line: underline;
+}

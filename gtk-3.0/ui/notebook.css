@@ -1,0 +1,165 @@
+notebook button {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_darkest;
+    box-shadow: inset 0 0 0 2px @tone_mid;
+    color: @tone_mid;
+    margin: 0;
+    min-height: 12px;
+    min-width: 12px;
+    padding: 5px;
+}
+
+notebook button:hover {
+    background-color: @tone_light;
+    border: 2px solid @tone_light;
+    box-shadow: inset 0 0 0 2px @tone_light;
+    color: @tone_darkest;
+    margin: 0;
+    min-height: 12px;
+    min-width: 12px;
+    padding: 5px;
+}
+
+notebook button:active,
+notebook button:checked {
+    background-color: @tone_lightest;
+    border: 2px solid @tone_lightest;
+    box-shadow: inset 0 0 0 2px @tone_lightest;
+    color: @tone_darkest;
+    margin: 0;
+    min-height: 12px;
+    min-width: 12px;
+    padding: 5px;
+}
+
+notebook button:disabled {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_darkest;
+    box-shadow: inset 0 0 0 2px @tone_dark;
+    color: @tone_dark;
+    margin: 0;
+    min-height: 12px;
+    min-width: 12px;
+    padding: 5px;
+}
+
+notebook button label {
+    color: @tone_mid;
+}
+
+notebook button:hover label {
+    color: @tone_darkest;
+}
+
+notebook button:active label,
+notebook button:checked label {
+    color: @tone_darkest;
+}
+
+notebook button:disabled label {
+    color: @tone_dark;
+}
+
+notebook > header {
+    background-color: @tone_mid;
+}
+
+notebook > header.top > tabs > tab,
+notebook > header.bottom > tabs > tab {
+    background-color: @tone_mid;
+    border: 0;
+    box-shadow: inset -1px 0 0 @tone_dark;
+    color: @tone_darkest;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+notebook > header.top > tabs > tab:hover,
+notebook > header.bottom > tabs > tab:hover {
+    background-color: @tone_light;
+    border: 0;
+    box-shadow: inset -1px 0 0 @tone_dark;
+    color: @tone_darkest;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+notebook > header.top > tabs > tab:active,
+notebook > header.bottom > tabs > tab:active,
+notebook > header.top > tabs > tab:checked,
+notebook > header.bottom > tabs > tab:checked {
+    background-color: @tone_lightest;
+    border: 0;
+    box-shadow: inset -1px 0 0 @tone_dark;
+    color: @tone_darkest;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+notebook > header.top > tabs > tab:disabled,
+notebook > header.bottom > tabs > tab:disabled {
+    background-color: @tone_dark;
+    border: 0;
+    box-shadow: inset -1px 0 0 @tone_darkest;
+    color: @tone_dark;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+notebook > header.left > tabs > tab,
+notebook > header.right > tabs > tab {
+    background-color: @tone_mid;
+    border: 0;
+    box-shadow: inset 0 -1px 0 @tone_dark;
+    color: @tone_darkest;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+notebook > header.left > tabs > tab:hover,
+notebook > header.right > tabs > tab:hover {
+    background-color: @tone_light;
+    border: 0;
+    box-shadow: inset 0 -1px 0 @tone_dark;
+    color: @tone_darkest;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+notebook > header.left > tabs > tab:active,
+notebook > header.right > tabs > tab:active,
+notebook > header.left > tabs > tab:checked,
+notebook > header.right > tabs > tab:checked {
+    background-color: @tone_lightest;
+    border: 0;
+    box-shadow: inset 0 -1px 0 @tone_dark;
+    color: @tone_darkest;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+notebook > header.left > tabs > tab:disabled,
+notebook > header.right > tabs > tab:disabled {
+    background-color: @tone_dark;
+    border: 0;
+    box-shadow: inset 0 -1px 0 @tone_darkest;
+    color: @tone_dark;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}

@@ -1,0 +1,135 @@
+treeview.view {
+    padding: 5px;
+}
+
+treeview.view button {
+    background-color: @tone_mid;
+    border: 0;
+    box-shadow: inset -1px 0 0 @tone_dark;
+    color: @tone_darkest;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+treeview.view button:hover {
+    background-color: @tone_light;
+    border: 0;
+    box-shadow: inset -1px 0 0 @tone_dark;
+    color: @tone_darkest;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+treeview.view button:active,
+treeview.view button:checked {
+    background-color: @tone_lightest;
+    border: 0;
+    box-shadow: inset -1px 0 0 @tone_dark;
+    color: @tone_darkest;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+treeview.view button:disabled {
+    background-color: @tone_dark;
+    border: 0;
+    box-shadow: inset -1px 0 0 @tone_darkest;
+    color: @tone_dark;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+treeview.view button label {
+    color: @tone_darkest;
+}
+
+treeview.view button:hover label {
+    color: @tone_darkest;
+}
+
+treeview.view button:active label,
+treeview.view button:checked label {
+    color: @tone_darkest;
+}
+
+treeview.view button:disabled label {
+    color: @tone_mid;
+}
+
+treeview.view check:selected,
+treeview.view radio:selected {
+    background-color: @tone_lightest;
+    border: 2px solid @tone_darkest;
+    box-shadow: inset 0 0 0 2px @tone_lightest;
+    color: @tone_lightest;
+    margin: 5px;
+    min-height: 15px;
+    min-width: 15px;
+    padding: 0;
+}
+
+treeview.view check:checked:selected,
+treeview.view radio:checked:selected {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_darkest;
+    box-shadow: inset 0 0 0 2px @tone_darkest;
+    color: @tone_light;
+    margin: 5px;
+    min-height: 15px;
+    min-width: 15px;
+    padding: 0;
+}
+
+treeview.view check:disabled:selected,
+treeview.view radio:disabled:selected {
+    background-color: @tone_mid;
+    border: 2px solid @tone_darkest;
+    box-shadow: inset 0 0 0 2px @tone_mid;
+    color: @tone_darkest;
+    margin: 5px;
+    min-height: 15px;
+    min-width: 15px;
+    padding: 0;
+}
+
+treeview.view check:checked:disabled:selected,
+treeview.view radio:checked:disabled:selected {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_darkest;
+    box-shadow: inset 0 0 0 2px @tone_darkest;
+    color: @tone_mid;
+    margin: 5px;
+    min-height: 15px;
+    min-width: 15px;
+    padding: 0;
+}
+
+treeview.view.trough,
+treeview.view.trough:selected {
+    background-color: @tone_mid;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    color: @tone_darkest;
+    margin: 0;
+    padding: 0;
+}
+
+treeview.view.progressbar,
+treeview.view.progressbar:selected {
+    background-color: @tone_light;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    color: @tone_darkest;
+    margin: 0;
+    padding: 0;
+}

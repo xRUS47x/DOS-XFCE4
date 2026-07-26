@@ -1,0 +1,23 @@
+.frame {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_mid;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+
+viewport.frame {
+    background-color: @tone_darkest;
+    border: 0;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+
+frame border {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_mid;
+    box-shadow: none;
+    margin: 0;
+    padding: 2px;
+}

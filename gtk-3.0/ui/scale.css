@@ -1,0 +1,71 @@
+scale {
+    margin: 5px;
+    padding: 0;
+}
+
+scale.horizontal {
+    margin: 5px;
+    min-height: 20px;
+}
+
+scale.vertical {
+    margin: 5px;
+    min-width: 20px;
+}
+
+scale trough {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_mid;
+    border-radius: 0px;
+    box-shadow: inset 0 0 0 4px @tone_mid, inset 0 0 0 2px @tone_darkest;
+    margin: 0px;
+    padding: 5px 5px;
+}
+
+scale highlight {
+    background-color: @tone_light;
+    border: 2px solid @tone_light;
+    border-radius: 0px;
+    box-shadow: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+scale slider {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_mid;
+    border-radius: 0px;
+    margin: -11px -11px;
+    padding: 0px;
+}
+
+scale slider:hover {
+    background-color: @tone_light;
+    border: 2px solid @tone_light;
+    border-radius: 0px;
+    margin: -11px -11px;
+    padding: 0px;
+}
+
+scale slider:active,
+scale slider:checked {
+    background-color: @tone_lightest;
+    border: 2px solid @tone_lightest;
+    border-radius: 0px;
+    margin: -11px -11px;
+    padding: 0px;
+}
+
+scale slider:disabled {
+    background-color: @tone_dark;
+    border: 2px solid @tone_dark;
+    border-radius: 0px;
+    margin: -11px -11px;
+    padding: 0px;
+}
+
+scale indicator {
+    background-color: @tone_mid;
+    color: @tone_mid;
+    padding: 1px 2px;
+}
