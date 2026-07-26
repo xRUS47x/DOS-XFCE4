@@ -1,0 +1,5 @@
+*:selected,
+selection {
+    background-color: @tone_lightest;
+    color: @tone_darkest;
+}

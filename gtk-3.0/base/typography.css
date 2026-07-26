@@ -1,0 +1,23 @@
+* {
+    font-family:
+        "Mx437 IBM VGA 8x16",
+        "Unifont",
+        "GNU Unifont",
+        "Terminus",
+        "Noto Sans Mono",
+        "DejaVu Sans Mono",
+        monospace;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.title,
+.title-1,
+.title-2,
+.title-3,
+.title-4,
+.heading,
+.caption-heading {
+    font-size: 14px;
+    font-weight: bold;
+}

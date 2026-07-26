@@ -1,0 +1,21 @@
+window,
+window.background,
+.background {
+    background-color: @tone_darkest;
+    color: @tone_mid;
+}
+
+window > decoration {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+label {
+    background-color: transparent;
+    color: inherit;
+}
+
+*:disabled {
+    color: @tone_dark;
+    -gtk-icon-effect: dim;
+}

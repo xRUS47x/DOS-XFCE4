@@ -1,0 +1,4 @@
+*:focus {
+    outline: 1px dotted @tone_lightest;
+    outline-offset: -3px;
+}

@@ -1,0 +1,39 @@
+/* Allgemeine Fensterfarben */
+
+@define-color theme_bg_color @tone_darkest;
+@define-color theme_fg_color @tone_mid;
+
+/* Eingabe- und Inhaltsflächen */
+
+@define-color theme_base_color @tone_darkest;
+@define-color theme_text_color @tone_light;
+
+/* Auswahl */
+
+@define-color theme_selected_bg_color @tone_lightest;
+@define-color theme_selected_fg_color @tone_darkest;
+
+/* Unfokussierte Auswahl */
+
+@define-color theme_unfocused_selected_bg_color @tone_lightest;
+@define-color theme_unfocused_selected_fg_color @tone_darkest;
+
+/* Deaktivierte Widgets */
+
+@define-color insensitive_base_color @tone_darkest;
+@define-color insensitive_bg_color @tone_darkest;
+@define-color insensitive_fg_color @tone_dark;
+
+/* Unfokussierte Fenster */
+
+@define-color theme_unfocused_base_color @tone_darkest;
+@define-color theme_unfocused_bg_color @tone_darkest;
+@define-color theme_unfocused_fg_color @tone_mid;
+@define-color theme_unfocused_text_color @tone_light;
+
+/* Rahmen und Inhaltsflächen */
+
+@define-color borders @tone_mid;
+@define-color content_view_bg @tone_darkest;
+@define-color text_view_bg @tone_darkest;
+@define-color unfocused_borders @tone_dark;
