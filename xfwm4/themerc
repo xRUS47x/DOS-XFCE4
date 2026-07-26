@@ -1,0 +1,11 @@
+# Use the color listed as 'tone_darkest' in the gtk-3.0/base/colors.css file.
+active_shadow_1=#000000
+active_text_color=#000000
+inactive_shadow_1=#000000
+inactive_text_color=#000000
+
+full_width_title=false
+
+# Use the color listed as 'tone_mid' in the gtk-3.0/base/colors.css file.
+active_color_1=#808080
+inactive_color_1=#808080
