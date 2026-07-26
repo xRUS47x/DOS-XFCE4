@@ -1,0 +1,15 @@
+XfdesktopIconView.view:active {
+    background-color: @tone_lightest;
+    color: @tone_lightest;
+}
+
+XfdesktopIconView.view .label:active {
+    color: @tone_darkest;
+}
+
+XfdesktopIconView.view .rubberband,
+XfdesktopIconView.view rubberband {
+    background-color: alpha(@tone_lightest, 0.10);
+    background-image: none;
+    border: 1px dotted @tone_lightest;
+}

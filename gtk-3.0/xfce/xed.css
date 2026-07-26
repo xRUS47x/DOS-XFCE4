@@ -1,0 +1,7 @@
+.xed-statusbar frame border {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_darkest;
+    box-shadow: none;
+    margin: 0;
+    padding: 2px;
+}

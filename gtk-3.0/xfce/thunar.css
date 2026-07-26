@@ -1,0 +1,29 @@
+window.background.thunar > grid.horizontal > paned.horizontal > paned.horizontal > grid.horizontal > widget {
+    background-color: @tone_darkest;
+    border-color: @tone_darkest;
+    box-shadow: none;
+}
+
+window.background.thunar scrolledwindow.frame.shortcuts-pane.sidebar {
+    background-color: @tone_darkest;
+    border: 0;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+
+window.background.thunar scrolledwindow.frame.standard-view {
+    background-color: @tone_darkest;
+    border: 0;
+    box-shadow: inset 0 -2px 0 @tone_mid;
+    margin: 0;
+    padding: 0;
+}
+
+window.background.thunar statusbar border {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_darkest;
+    box-shadow: none;
+    margin: 0;
+    padding: 2px;
+}
