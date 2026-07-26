@@ -1,0 +1,41 @@
+/*
+The color names serve as a guide for assigning specific color accents. They do not represent fixed colors or brightness levels and can be assigned to any color or rearranged to create a light color theme.
+Change only the hexadecimal color values ​​(e.g., #XXXXXX). Do not rename the color definitions, as they are referenced throughout the theme.
+*/
+
+@define-color tone_darkest #000000; /* Adjust the color values in the xfwm4/themerc file as well. */
+@define-color tone_dark #404040;
+@define-color tone_mid #808080; /* Adjust the color values in the xfwm4/themerc file as well. */
+@define-color tone_light #bfbfbf;
+@define-color tone_lightest #ffffff;
+
+/*
+Overview of the color roles used throughout the theme:
+
+tone_darkest
+    - Primary application background
+    - Dark surfaces
+    - Borders and outlines
+    - Foreground color on light surfaces
+
+tone_dark
+    - Disabled widgets
+    - Inactive controls
+    - Less prominent foreground elements
+
+tone_mid
+    - Primary theme accent
+    - Default foreground color on dark surfaces
+    - Window decorations (XFWM4)
+
+tone_light
+    - Hover states
+    - Secondary highlights
+    - Keyboard focus indicators
+    - Alternate accents
+
+tone_lightest
+    - Active, pressed and selected states
+    - Bright highlights
+    - Highest-contrast surfaces
+*/
