@@ -1,0 +1,47 @@
+/* BASE */
+@import url("base/colors.css");
+@import url("base/colors-public.css");
+@import url("base/disabled.css");
+@import url("base/focus.css");
+@import url("base/rubberband.css");
+@import url("base/selection.css");
+@import url("base/typography.css");
+@import url("base/window.css");
+
+/* UI */
+@import url("ui/arrow.css");
+@import url("ui/button.css");
+@import url("ui/calendar.css");
+@import url("ui/check-radio.css");
+@import url("ui/combo.css");
+@import url("ui/csd.css");
+@import url("ui/entry.css");
+@import url("ui/filechooser.css");
+@import url("ui/frame.css");
+@import url("ui/grid.css");
+@import url("ui/infobar.css");
+@import url("ui/levelbar.css");
+@import url("ui/link.css");
+@import url("ui/menu.css");
+@import url("ui/notebook.css");
+@import url("ui/popover.css");
+@import url("ui/popup.css");
+@import url("ui/progressbar.css");
+@import url("ui/scale.css");
+@import url("ui/scrollbar.css");
+@import url("ui/separator.css");
+@import url("ui/spinbutton.css");
+@import url("ui/spinner.css");
+@import url("ui/switch.css");
+@import url("ui/toolbar.css");
+@import url("ui/tooltip.css");
+@import url("ui/treeview.css");
+
+/* XFCE */
+@import url("xfce/libreoffice.css");
+@import url("xfce/panel-button.css");
+@import url("xfce/systray.css");
+@import url("xfce/thunar.css");
+@import url("xfce/whiskermenu.css");
+@import url("xfce/xed.css");
+@import url("xfce/xfdesktop.css");
