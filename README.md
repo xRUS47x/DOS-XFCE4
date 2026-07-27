@@ -1,4 +1,4 @@
-# DOS-XFCE
+# DOS-XFCE4
 A modern interpretation of the classic DOS aesthetic for Linux XFCE.
 
 ## Preview
