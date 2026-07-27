@@ -4,8 +4,9 @@
 @import url("base/disabled.css");
 @import url("base/focus.css");
 @import url("base/rubberband.css");
-@import url("base/selection.css");
 @import url("base/typography.css");
+@import url("base/view.css");
+@import url("base/selection.css"); /* Loaded later to ensure selection states override general widget styles. */
 @import url("base/window.css");
 
 /* UI */
