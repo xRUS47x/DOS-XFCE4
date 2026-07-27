@@ -14,8 +14,3 @@ label {
     background-color: transparent;
     color: inherit;
 }
-
-*:disabled {
-    color: @tone_dark;
-    -gtk-icon-effect: dim;
-}
