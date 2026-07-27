@@ -1,11 +1,15 @@
 XfdesktopIconView.view {
     background-color: transparent;
-    color: @tone_mid;
 }
 
+XfdesktopIconView.view:active,
 XfdesktopIconView.view:selected {
     background-color: @tone_lightest;
-    color: @tone_darkest;
+    color: @tone_lightest;
+}
+
+XfdesktopIconView.view .label {
+    color: @tone_mid;
 }
 
 XfdesktopIconView.view .rubberband,
