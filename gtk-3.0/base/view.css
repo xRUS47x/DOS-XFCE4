@@ -1,6 +1,10 @@
+.view {
+    color: @tone_mid;
+}
+
 textview,
 textview text,
-.view {
+textview.view {
     background-color: @tone_darkest;
     color: @tone_mid;
 }
