@@ -1,9 +1,10 @@
-XfdesktopIconView.view:active {
-    background-color: @tone_lightest;
-    color: @tone_lightest;
+XfdesktopIconView.view {
+    background-color: transparent;
+    color: @tone_mid;
 }
 
-XfdesktopIconView.view .label:active {
+XfdesktopIconView.view:selected {
+    background-color: @tone_lightest;
     color: @tone_darkest;
 }
 
