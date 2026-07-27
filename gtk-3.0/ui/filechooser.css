@@ -6,9 +6,9 @@ filechooser button.image-button > image {
 filechooser placessidebar.frame.sidebar {
     background-color: @tone_darkest;
     border: 0;
-    box-shadow: inset 0 -2px 0 @tone_mid;
+    box-shadow: none;
     margin: 0;
-    padding: 0 0 2px 0;
+    padding: 0;
 }
 
 filechooser placessidebar row {
@@ -21,10 +21,29 @@ filechooser placessidebar row image {
     padding: 0;
 }
 
-filechooser stack scrolledwindow {
-    background-color: @tone_darkest;
+filechooser placesview frame > border {
     border: 0;
-    box-shadow: inset 0 -2px 0 @tone_mid;
+    box-shadow: none;
+    background-image: none;
+}
+
+filechooser placesview scrolledwindow {
+    border: 0;
+    box-shadow: none;
+    background-image: none;
+}
+
+filechooser + .dialog-action-box {
+    border-top: 2px solid @tone_mid;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+
+filechooser .view stack {
+    background-color: @tone_mid;
+    border: 0;
+    box-shadow: none;
     margin: 0;
     padding: 0;
 }
