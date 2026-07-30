@@ -11,6 +11,11 @@ filechooser placessidebar.frame.sidebar {
     padding: 0;
 }
 
+filechooser placessidebar label {
+    margin: 0;
+    padding: 0;
+}
+
 filechooser placessidebar row {
     margin: 0;
     padding: 7px;
