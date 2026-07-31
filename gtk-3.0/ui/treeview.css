@@ -7,6 +7,10 @@ treeview.view:disabled {
     color: @tone_dark;
 }
 
+treeview.view:selected {
+    color: @tone_darkest;
+}
+
 treeview.view button {
     background-color: @tone_mid;
     border: 0;
