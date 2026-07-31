@@ -1,5 +1,10 @@
 treeview.view {
+    color: @tone_mid;
     padding: 5px;
+}
+
+treeview.view:disabled {
+    color: @tone_dark;
 }
 
 treeview.view button {
