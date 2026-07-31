@@ -37,6 +37,10 @@ menu menuitem:hover {
     color: @tone_darkest;
 }
 
+menuitem label {
+    padding: 0 5px 0 5px;
+}
+
 menuitem check:hover,
 menuitem radio:hover {
     background-color: @tone_lightest;
