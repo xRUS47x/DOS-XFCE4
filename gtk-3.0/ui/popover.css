@@ -4,3 +4,43 @@ popover {
     box-shadow: inset 0 0 0 4px @tone_mid, inset 0 0 0 2px @tone_darkest;
     padding: 2px;
 }
+
+popover modelbutton {
+    background-color: @tone_darkest;
+    color: @tone_mid;
+    margin: 0;
+    padding: 5px;
+}
+
+popover modelbutton:hover {
+    background-color: @tone_lightest;
+    color: @tone_darkest;
+    margin: 0;
+    padding: 5px;
+}
+
+popover check:hover,
+popover radio:hover {
+    background-color: @tone_lightest;
+    border: 2px solid @tone_darkest;
+    box-shadow: inset 0 0 0 2px @tone_lightest;
+    color: @tone_lightest;
+    margin: 5px;
+    min-height: 15px;
+    min-width: 15px;
+    padding: 0;
+}
+
+popover check:checked:hover,
+popover radio:checked:hover,
+popover check:indeterminate:hover,
+popover radio:indeterminate:hover {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_darkest;
+    box-shadow: inset 0 0 0 2px @tone_darkest;
+    color: @tone_light;
+    margin: 5px;
+    min-height: 15px;
+    min-width: 15px;
+    padding: 0;
+}
