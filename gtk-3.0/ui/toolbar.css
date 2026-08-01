@@ -68,3 +68,74 @@ toolbar button:checked label {
 toolbar button:disabled label {
     color: @tone_dark;
 }
+
+box.app-toolbar {
+    background-color: @tone_mid;
+    border: 0;
+    box-shadow: none;
+    color: @tone_mid;
+    margin: 0;
+    padding: 5px;
+}
+
+box.app-toolbar button {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_darkest;
+    box-shadow: inset 0 0 0 2px @tone_mid;
+    color: @tone_mid;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+box.app-toolbar button:hover {
+    background-color: @tone_light;
+    border: 2px solid @tone_light;
+    box-shadow: inset 0 0 0 2px @tone_light;
+    color: @tone_darkest;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+box.app-toolbar button:active,
+box.app-toolbar button:checked {
+    background-color: @tone_lightest;
+    border: 2px solid @tone_lightest;
+    box-shadow: inset 0 0 0 2px @tone_lightest;
+    color: @tone_darkest;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+box.app-toolbar button:disabled {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_darkest;
+    box-shadow: inset 0 0 0 2px @tone_dark;
+    color: @tone_dark;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    padding: 5px;
+}
+
+box.app-toolbar button label {
+    color: @tone_mid;
+}
+
+box.app-toolbar button:hover label {
+    color: @tone_darkest;
+}
+
+box.app-toolbar button:active label,
+box.app-toolbar button:checked label {
+    color: @tone_darkest;
+}
+
+box.app-toolbar button:disabled label {
+    color: @tone_dark;
+}
