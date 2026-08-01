@@ -1,39 +1,61 @@
-/* Allgemeine Fensterfarben */
+/* Window Colors */
 
 @define-color theme_bg_color @tone_darkest;
 @define-color theme_fg_color @tone_mid;
 
-/* Eingabe- und Inhaltsflächen */
+/* Content and Input Areas */
 
 @define-color theme_base_color @tone_darkest;
-@define-color theme_text_color @tone_light;
+@define-color theme_text_color @tone_mid;
 
-/* Auswahl */
+/* Selection Colors */
 
 @define-color theme_selected_bg_color @tone_lightest;
 @define-color theme_selected_fg_color @tone_darkest;
 
-/* Unfokussierte Auswahl */
+/* Disabled State Colors */
 
-@define-color theme_unfocused_selected_bg_color @tone_lightest;
-@define-color theme_unfocused_selected_fg_color @tone_darkest;
-
-/* Deaktivierte Widgets */
-
-@define-color insensitive_base_color @tone_darkest;
 @define-color insensitive_bg_color @tone_darkest;
-@define-color insensitive_fg_color @tone_dark;
+@define-color insensitive_fg_color @tone_mid;
+@define-color insensitive_base_color @tone_dark;
 
-/* Unfokussierte Fenster */
+/* Unfocused Window Colors */
 
-@define-color theme_unfocused_base_color @tone_darkest;
 @define-color theme_unfocused_bg_color @tone_darkest;
 @define-color theme_unfocused_fg_color @tone_mid;
-@define-color theme_unfocused_text_color @tone_light;
+@define-color theme_unfocused_base_color @theme_base_color;
+@define-color theme_unfocused_text_color @tone_mid;
 
-/* Rahmen und Inhaltsflächen */
+/* Unfocused Selection Colors */
+
+@define-color theme_unfocused_selected_bg_color @theme_selected_bg_color;
+@define-color theme_unfocused_selected_fg_color @theme_selected_fg_color;
+
+/* Disabled Colors in Unfocused Windows */
+
+@define-color unfocused_insensitive_color @insensitive_fg_color;
+
+/* Border Colors */
 
 @define-color borders @tone_mid;
+@define-color unfocused_borders @borders;
+
+/* Status Colors */
+
+@define-color warning_color @tone_mid;
+@define-color error_color @tone_mid;
+@define-color success_color @tone_mid;
+
+/* Content View Backgrounds */
+
 @define-color content_view_bg @tone_darkest;
 @define-color text_view_bg @tone_darkest;
-@define-color unfocused_borders @tone_dark;
+
+/* Compatibility Aliases */
+
+@define-color bg_color @theme_bg_color;
+@define-color fg_color @theme_fg_color;
+@define-color base_color @theme_base_color;
+@define-color text_color @theme_text_color;
+@define-color selected_bg_color @theme_selected_bg_color;
+@define-color selected_fg_color @theme_selected_fg_color;
