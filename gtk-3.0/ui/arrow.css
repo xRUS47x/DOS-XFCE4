@@ -1,6 +1,6 @@
 arrow {
     -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
-    -gtk-icon-transform: translateX(-5px);
+    -gtk-icon-transform: translateX(0px);
     margin: 0;
     min-height: 15px;
     min-width: 15px;
@@ -9,7 +9,7 @@ arrow {
 
 arrow:checked {
     -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
-    -gtk-icon-transform: translateX(-5px);
+    -gtk-icon-transform: translateX(0px);
     margin: 0;
     min-height: 15px;
     min-width: 15px;
@@ -18,7 +18,7 @@ arrow:checked {
 
 arrow:dir(rtl) {
     -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
-    -gtk-icon-transform: translateX(5px);
+    -gtk-icon-transform: translateX(0px);
     margin: 0;
     min-height: 15px;
     min-width: 15px;
@@ -27,7 +27,7 @@ arrow:dir(rtl) {
 
 arrow:checked:dir(rtl) {
     -gtk-icon-source: -gtk-icontheme("pan-start-symbolic");
-    -gtk-icon-transform: translateX(5px);
+    -gtk-icon-transform: translateX(0px);
     margin: 0;
     min-height: 15px;
     min-width: 15px;
