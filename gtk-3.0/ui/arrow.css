@@ -1,6 +1,6 @@
 arrow {
     -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
-    -gtk-icon-transform: translateX(0px);
+    -gtk-icon-transform: translateX(-5px);
     margin: 0;
     min-height: 15px;
     min-width: 15px;
@@ -9,7 +9,7 @@ arrow {
 
 arrow:checked {
     -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
-    -gtk-icon-transform: translateX(0px);
+    -gtk-icon-transform: translateX(-5px);
     margin: 0;
     min-height: 15px;
     min-width: 15px;
@@ -18,7 +18,7 @@ arrow:checked {
 
 arrow:dir(rtl) {
     -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
-    -gtk-icon-transform: translateX(0px);
+    -gtk-icon-transform: translateX(5px);
     margin: 0;
     min-height: 15px;
     min-width: 15px;
@@ -27,11 +27,37 @@ arrow:dir(rtl) {
 
 arrow:checked:dir(rtl) {
     -gtk-icon-source: -gtk-icontheme("pan-start-symbolic");
-    -gtk-icon-transform: translateX(0px);
+    -gtk-icon-transform: translateX(5px);
     margin: 0;
     min-height: 15px;
     min-width: 15px;
     padding: 0;
+}
+
+arrow.up,
+arrow.top {
+    -gtk-icon-source: -gtk-icontheme("pan-up-symbolic");
+}
+
+arrow.down,
+arrow.bottom {
+    -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
+}
+
+arrow.left {
+    -gtk-icon-source: -gtk-icontheme("pan-start-symbolic");
+}
+
+arrow.right {
+    -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
+}
+
+arrow.left:dir(rtl) {
+    -gtk-icon-source: -gtk-icontheme("pan-end-symbolic-rtl");
+}
+
+arrow.right:dir(rtl) {
+    -gtk-icon-source: -gtk-icontheme("pan-end-symbolic-rtl");
 }
 
 expander arrow {
@@ -68,32 +94,6 @@ expander arrow:checked:dir(rtl) {
     min-height: 15px;
     min-width: 15px;
     padding: 0;
-}
-
-arrow.up,
-arrow.top {
-    -gtk-icon-source: -gtk-icontheme("pan-up-symbolic");
-}
-
-arrow.down,
-arrow.bottom {
-    -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
-}
-
-arrow.left {
-    -gtk-icon-source: -gtk-icontheme("pan-start-symbolic");
-}
-
-arrow.right {
-    -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
-}
-
-arrow.left:dir(rtl) {
-    -gtk-icon-source: -gtk-icontheme("pan-end-symbolic-rtl");
-}
-
-arrow.right:dir(rtl) {
-    -gtk-icon-source: -gtk-icontheme("pan-end-symbolic-rtl");
 }
 
 notebook > header arrow {
