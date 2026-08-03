@@ -1,5 +1,6 @@
 decoration {
     box-shadow: 0 0 0 6px @tone_mid, 0 0 0 4px @tone_darkest, 0 0 0 2px @tone_mid;
+    margin: 6px;
 }
 
 window,
