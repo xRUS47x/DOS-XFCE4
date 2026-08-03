@@ -1,5 +1,7 @@
 button,
 button.font,
+button.text-button.destructive-action,
+button.text-button.suggested-action,
 .inline-toolbar button {
     background-color: @tone_darkest;
     border: 2px solid @tone_mid;
@@ -13,6 +15,8 @@ button.font,
 
 button:hover,
 button.font:hover,
+button.text-button.destructive-action:hover,
+button.text-button.suggested-action:hover,
 .inline-toolbar button:hover {
     background-color: @tone_light;
     border: 2px solid @tone_light;
@@ -28,6 +32,10 @@ button:active,
 button:checked,
 button.font:active,
 button.font:checked,
+button.text-button.destructive-action:active,
+button.text-button.destructive-action:checked,
+button.text-button.suggested-action:active,
+button.text-button.suggested-action:checked,
 .inline-toolbar button:active,
 .inline-toolbar button:checked {
     background-color: @tone_lightest;
@@ -42,6 +50,8 @@ button.font:checked,
 
 button:disabled,
 button.font:disabled,
+button.text-button.destructive-action:disabled,
+button.text-button.suggested-action:disabled,
 .inline-toolbar button:disabled {
     background-color: @tone_darkest;
     border: 2px solid @tone_dark;
