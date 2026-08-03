@@ -1,11 +1,3 @@
-window.csd decoration {
-    background-color: @tone_darkest;
-    border: 0;
-    box-shadow: inset 0 0 0 6px @tone_mid, inset 0 0 0 4px @tone_darkest, inset 0 0 0 2px @tone_mid;
-    margin: 0;
-    padding: 6px;
-}
-
 window.csd.popup decoration {
     background-color: @tone_darkest;
     border: 0;
