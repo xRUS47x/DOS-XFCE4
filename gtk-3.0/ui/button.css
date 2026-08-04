@@ -3,6 +3,8 @@ button.font,
 button.radio,
 button.text-button.destructive-action,
 button.text-button.suggested-action,
+dialog frame > grid > button,
+dialog notebook box > button,
 .inline-toolbar button {
     background-color: @tone_darkest;
     border: 2px solid @tone_mid;
@@ -14,11 +16,13 @@ button.text-button.suggested-action,
     padding: 5px;
 }
 
-button:hover,
 button.font:hover,
+button:hover,
 button.radio:hover,
 button.text-button.destructive-action:hover,
 button.text-button.suggested-action:hover,
+dialog frame > grid > button:hover,
+dialog notebook box > button:hover, 
 .inline-toolbar button:hover {
     background-color: @tone_light;
     border: 2px solid @tone_light;
@@ -40,6 +44,10 @@ button.text-button.destructive-action:active,
 button.text-button.destructive-action:checked,
 button.text-button.suggested-action:active,
 button.text-button.suggested-action:checked,
+dialog frame > grid > button:active,
+dialog frame > grid > button:checked,
+dialog notebook box > button:active,
+dialog notebook box > button:checked,
 .inline-toolbar button:active,
 .inline-toolbar button:checked {
     background-color: @tone_lightest;
@@ -57,6 +65,8 @@ button.font:disabled,
 button.radio:disabled,
 button.text-button.destructive-action:disabled,
 button.text-button.suggested-action:disabled,
+dialog frame > grid > button:disabled,
+dialog notebook box > button:disabled,
 .inline-toolbar button:disabled {
     background-color: @tone_darkest;
     border: 2px solid @tone_dark;
@@ -99,49 +109,4 @@ box.linked > button.image-button:first-child {
 
 box.linked > button.image-button:last-child {
     margin: 0 2px 0 0;
-}
-
-dialog notebook box > button {
-    background-color: @tone_darkest;
-    border: 2px solid @tone_mid;
-    box-shadow: inset 0 0 0 2px @tone_darkest;
-    color: @tone_mid;
-    margin: 0;
-    min-height: 24px;
-    min-width: 24px;
-    padding: 5px;
-}
-
-dialog notebook box > button:hover {
-    background-color: @tone_light;
-    border: 2px solid @tone_light;
-    box-shadow: inset 0 0 0 2px @tone_light;
-    color: @tone_darkest;
-    margin: 0;
-    min-height: 24px;
-    min-width: 24px;
-    padding: 5px;
-}
-
-dialog notebook box > button:active,
-dialog notebook box > button:checked {
-    background-color: @tone_lightest;
-    border: 2px solid @tone_lightest;
-    box-shadow: inset 0 0 0 2px @tone_lightest;
-    color: @tone_darkest;
-    margin: 0;
-    min-height: 24px;
-    min-width: 24px;
-    padding: 5px;
-}
-
-dialog notebook box > button:disabled {
-    background-color: @tone_darkest;
-    border: 2px solid @tone_dark;
-    box-shadow: inset 0 0 0 2px @tone_darkest;
-    color: @tone_dark;
-    margin: 0;
-    min-height: 24px;
-    min-width: 24px;
-    padding: 5px;
 }
