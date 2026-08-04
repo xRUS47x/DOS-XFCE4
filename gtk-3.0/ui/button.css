@@ -80,6 +80,22 @@ button:disabled > label {
     color: @tone_dark;
 }
 
+box.linked > button.image-button,
+box.linked > button.image-button:hover,
+box.linked > button.image-button:active,
+box.linked > button.image-button:checked,
+box.linked > button.image-button:disabled {
+    margin: 0;
+}
+
+box.linked > button.image-button:first-child {
+    margin: 0 0 0 2px;
+}
+
+box.linked > button.image-button:last-child {
+    margin: 0 2px 0 0;
+}
+
 dialog notebook box > button {
     background-color: @tone_darkest;
     border: 2px solid @tone_mid;
