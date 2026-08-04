@@ -1,5 +1,6 @@
 button,
 button.font,
+button.radio,
 button.text-button.destructive-action,
 button.text-button.suggested-action,
 .inline-toolbar button {
@@ -15,6 +16,7 @@ button.text-button.suggested-action,
 
 button:hover,
 button.font:hover,
+button.radio:hover,
 button.text-button.destructive-action:hover,
 button.text-button.suggested-action:hover,
 .inline-toolbar button:hover {
@@ -32,6 +34,8 @@ button:active,
 button:checked,
 button.font:active,
 button.font:checked,
+button.radio:active,
+button.radio:checked,
 button.text-button.destructive-action:active,
 button.text-button.destructive-action:checked,
 button.text-button.suggested-action:active,
@@ -50,6 +54,7 @@ button.text-button.suggested-action:checked,
 
 button:disabled,
 button.font:disabled,
+button.radio:disabled,
 button.text-button.destructive-action:disabled,
 button.text-button.suggested-action:disabled,
 .inline-toolbar button:disabled {
