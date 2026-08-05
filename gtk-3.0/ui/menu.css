@@ -41,6 +41,14 @@ menuitem label {
     padding: 0 5px 0 5px;
 }
 
+window.csd.popup menu > menuitem > label {
+    color: @tone_mid;
+}
+
+window.csd.popup menu > menuitem:hover > label {
+    color: @tone_darkest;
+}
+
 menuitem check:hover,
 menuitem radio:hover {
     background-color: @tone_lightest;
