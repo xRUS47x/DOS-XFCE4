@@ -1,7 +1,9 @@
 button,
+button.file,
 button.font,
 button.image-button,
 button.radio,
+button.text-button,
 button.text-button.destructive-action,
 button.text-button.suggested-action,
 button.toggle,
@@ -21,9 +23,11 @@ window.csd stack > box.vertical > box.horizontal > box.horizontal > box.vertical
 }
 
 button:hover,
+button.file:hover,
 button.font:hover,
 button.image-button:hover,
 button.radio:hover,
+button.text-button:hover,
 button.text-button.destructive-action:hover,
 button.text-button.suggested-action:hover,
 button.toggle:hover,
@@ -44,12 +48,16 @@ window.csd stack > box.vertical > box.horizontal > box.horizontal > box.vertical
 
 button:active,
 button:checked,
+button.file:active,
+button.file:checked,
 button.font:active,
 button.font:checked,
 button.image-button:active,
 button.image-button:checked,
 button.radio:active,
 button.radio:active,
+button.text-button:active,
+button.text-button:checked,
 button.text-button.destructive-action:active,
 button.text-button.destructive-action:checked,
 button.text-button.suggested-action:active,
@@ -77,9 +85,11 @@ window.csd stack > box.vertical > box.horizontal > box.horizontal > box.vertical
 }
 
 button:disabled,
+button.file:disabled,
 button.font:disabled,
 button.image-button:disabled,
 button.radio:disabled,
+button.text-button:disabled,
 button.text-button.destructive-action:disabled,
 button.text-button.suggested-action:disabled,
 button.toggle:disabled,
@@ -113,28 +123,4 @@ button:checked > label {
 
 button:disabled > label {
     color: @tone_dark;
-}
-
-box > button.image-button,
-box > button.image-button:hover,
-box > button.image-button:active,
-box > button.image-button:checked,
-box > button.image-button:disabled {
-    margin: 0;
-}
-
-box > button.image-button:first-child,
-box > button.image-button:hover:first-child,
-box > button.image-button:active:first-child,
-box > button.image-button:checked:first-child,
-box > button.image-button:disabled:first-child {
-    margin: 0 0 0 2px;
-}
-
-box > button.image-button:last-child,
-box > button.image-button:hover:last-child,
-box > button.image-button:active:last-child,
-box > button.image-button:checked:last-child,
-box > button.image-button:disabled:last-child {
-    margin: 0 2px 0 0;
 }
