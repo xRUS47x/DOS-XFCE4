@@ -37,6 +37,10 @@ menu menuitem:hover {
     color: @tone_darkest;
 }
 
+menu menuitem:disabled {
+    color: @tone_dark;
+}
+
 menuitem label {
     padding: 0 5px 0 5px;
 }
@@ -47,6 +51,10 @@ window.csd.popup menu > menuitem > label {
 
 window.csd.popup menu > menuitem:hover > label {
     color: @tone_darkest;
+}
+
+window.csd.popup menu > menuitem:disabled > label {
+    color: @tone_dark;
 }
 
 menuitem check:hover,
