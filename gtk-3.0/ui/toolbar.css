@@ -7,6 +7,12 @@ toolbar {
     padding: 5px;
 }
 
+button.flat.image-button.text-button,
+button.image-button.flat,
+button.toggle.flat.image-button,
+button.toggle.flat.popup,
+button.toggle.flat.popup.toolbutton,
+button.toggle.location-button.path-bar-button,
 toolbar button {
     background-color: @tone_darkest;
     border: 2px solid @tone_darkest;
@@ -18,6 +24,12 @@ toolbar button {
     padding: 5px;
 }
 
+button.flat.image-button.text-button:hover,
+button.image-button.flat:hover,
+button.toggle.flat.image-button:hover,
+button.toggle.flat.popup:hover,
+button.toggle.flat.popup.toolbutton:hover,
+button.toggle.location-button.path-bar-button:hover,
 toolbar button:hover {
     background-color: @tone_light;
     border: 2px solid @tone_light;
@@ -29,6 +41,18 @@ toolbar button:hover {
     padding: 5px;
 }
 
+button.flat.image-button.text-button:active,
+button.flat.image-button.text-button:checked,
+button.image-button.flat:active,
+button.image-button.flat:checked,
+button.toggle.flat.image-button:active,
+button.toggle.flat.image-button:checked,
+button.toggle.flat.popup:active,
+button.toggle.flat.popup:checked,
+button.toggle.flat.popup.toolbutton:active,
+button.toggle.flat.popup.toolbutton:checked,
+button.toggle.location-button.path-bar-button:active,
+button.toggle.location-button.path-bar-button:checked,
 toolbar button:active,
 toolbar button:checked {
     background-color: @tone_lightest;
@@ -41,6 +65,12 @@ toolbar button:checked {
     padding: 5px;
 }
 
+button.flat.image-button.text-button:disabled,
+button.image-button.flat:disabled,
+button.toggle.flat.image-button:disabled,
+button.toggle.flat.popup:disabled,
+button.toggle.flat.popup.toolbutton:disabled,
+button.toggle.location-button.path-bar-button:disabled,
 toolbar button:disabled {
     background-color: @tone_darkest;
     border: 2px solid @tone_darkest;
@@ -66,76 +96,5 @@ toolbar button:checked label {
 }
 
 toolbar button:disabled label {
-    color: @tone_dark;
-}
-
-box.app-toolbar {
-    background-color: @tone_mid;
-    border: 0;
-    box-shadow: none;
-    color: @tone_mid;
-    margin: 0;
-    padding: 5px;
-}
-
-box.app-toolbar button {
-    background-color: @tone_darkest;
-    border: 2px solid @tone_darkest;
-    box-shadow: inset 0 0 0 2px @tone_mid;
-    color: @tone_mid;
-    margin: 0;
-    min-height: 24px;
-    min-width: 24px;
-    padding: 5px;
-}
-
-box.app-toolbar button:hover {
-    background-color: @tone_light;
-    border: 2px solid @tone_light;
-    box-shadow: inset 0 0 0 2px @tone_light;
-    color: @tone_darkest;
-    margin: 0;
-    min-height: 24px;
-    min-width: 24px;
-    padding: 5px;
-}
-
-box.app-toolbar button:active,
-box.app-toolbar button:checked {
-    background-color: @tone_lightest;
-    border: 2px solid @tone_lightest;
-    box-shadow: inset 0 0 0 2px @tone_lightest;
-    color: @tone_darkest;
-    margin: 0;
-    min-height: 24px;
-    min-width: 24px;
-    padding: 5px;
-}
-
-box.app-toolbar button:disabled {
-    background-color: @tone_darkest;
-    border: 2px solid @tone_darkest;
-    box-shadow: inset 0 0 0 2px @tone_dark;
-    color: @tone_dark;
-    margin: 0;
-    min-height: 24px;
-    min-width: 24px;
-    padding: 5px;
-}
-
-box.app-toolbar button label {
-    color: @tone_mid;
-}
-
-box.app-toolbar button:hover label {
-    color: @tone_darkest;
-}
-
-box.app-toolbar button:active label,
-box.app-toolbar button:checked label {
-    color: @tone_darkest;
-}
-
-box.app-toolbar button:disabled label {
     color: @tone_dark;
 }
