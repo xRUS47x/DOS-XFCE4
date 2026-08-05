@@ -1,4 +1,5 @@
-.xfce4-panel button {
+.xfce4-panel button,
+.xfce4-panel button.toggle {
     background-color: @tone_darkest;
     border: 2px solid @tone_mid;
     box-shadow: inset 0 0 0 2px @tone_darkest;
@@ -9,7 +10,8 @@
     padding: 5px;
 }
 
-.xfce4-panel button:hover {
+.xfce4-panel button:hover,
+.xfce4-panel button.toggle:hover {
     background-color: @tone_light;
     border: 2px solid @tone_light;
     box-shadow: inset 0 0 0 2px @tone_light;
@@ -21,7 +23,9 @@
 }
 
 .xfce4-panel button:active,
-.xfce4-panel button:checked {
+.xfce4-panel button:checked,
+.xfce4-panel button.toggle:active,
+.xfce4-panel button.toggle:checked {
     background-color: @tone_lightest;
     border: 2px solid @tone_lightest;
     box-shadow: inset 0 0 0 2px @tone_lightest;
@@ -32,7 +36,8 @@
     padding: 5px;
 }
 
-.xfce4-panel button:disabled {
+.xfce4-panel button:disabled,
+.xfce4-panel button.toggle:disabled {
     background-color: @tone_darkest;
     border: 2px solid @tone_dark;
     box-shadow: inset 0 0 0 2px @tone_darkest;
