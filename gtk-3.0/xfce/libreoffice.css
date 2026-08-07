@@ -1,4 +1,4 @@
-window.background.maximized > grid.horizontal widget scrolledwindow > viewport.frame grid.horizontal > grid.horizontal > box.vertical > scrolledwindow.frame {
+window.background > grid.horizontal widget scrolledwindow > viewport.frame grid.horizontal > grid.horizontal > box.vertical > scrolledwindow.frame {
     border: 1px solid @tone_mid;
     margin: 0;
     padding: 0;
@@ -6,13 +6,13 @@ window.background.maximized > grid.horizontal widget scrolledwindow > viewport.f
 
 window.background > grid.horizontal scrolledwindow > viewport.frame scrolledwindow > viewport.frame box > grid > grid > toolbar,
 window.background > grid.horizontal scrolledwindow > viewport.frame scrolledwindow > viewport.frame box > toolbar,
-window.background.maximized > grid.horizontal widget scrolledwindow > viewport.frame box > toolbar {
+window.background > grid.horizontal widget scrolledwindow > viewport.frame box > toolbar {
     background-color: @tone_darkest;
 }
 
 window.background > grid.horizontal scrolledwindow > viewport.frame scrolledwindow > viewport.frame box > grid > grid > toolbar button,
 window.background > grid.horizontal scrolledwindow > viewport.frame scrolledwindow > viewport.frame box > toolbar button,
-window.background.maximized > grid.horizontal widget scrolledwindow > viewport.frame box > toolbar button {
+window.background > grid.horizontal widget scrolledwindow > viewport.frame box > toolbar button {
     background-color: @tone_darkest;
     border: 2px solid @tone_mid;
     box-shadow: inset 0 0 0 2px @tone_darkest;
@@ -25,7 +25,7 @@ window.background.maximized > grid.horizontal widget scrolledwindow > viewport.f
 
 window.background > grid.horizontal scrolledwindow > viewport.frame scrolledwindow > viewport.frame box > grid > grid > toolbar button:hover,
 window.background > grid.horizontal scrolledwindow > viewport.frame scrolledwindow > viewport.frame box > toolbar button:hover,
-window.background.maximized > grid.horizontal widget scrolledwindow > viewport.frame box > toolbar button:hover {
+window.background > grid.horizontal widget scrolledwindow > viewport.frame box > toolbar button:hover {
     background-color: @tone_light;
     border: 2px solid @tone_light;
     box-shadow: inset 0 0 0 2px @tone_light;
@@ -38,10 +38,10 @@ window.background.maximized > grid.horizontal widget scrolledwindow > viewport.f
 
 window.background > grid.horizontal scrolledwindow > viewport.frame scrolledwindow > viewport.frame box > grid > grid > toolbar button:active,
 window.background > grid.horizontal scrolledwindow > viewport.frame scrolledwindow > viewport.frame box > toolbar button:active,
-window.background.maximized > grid.horizontal widget scrolledwindow > viewport.frame box > toolbar button:active,
+window.background > grid.horizontal widget scrolledwindow > viewport.frame box > toolbar button:active,
 window.background > grid.horizontal scrolledwindow > viewport.frame scrolledwindow > viewport.frame box > grid > grid > toolbar button:checked,
 window.background > grid.horizontal scrolledwindow > viewport.frame scrolledwindow > viewport.frame box > toolbar button:checked,
-window.background.maximized > grid.horizontal widget scrolledwindow > viewport.frame box > toolbar button:checked {
+window.background > grid.horizontal widget scrolledwindow > viewport.frame box > toolbar button:checked {
     background-color: @tone_lightest;
     border: 2px solid @tone_lightest;
     box-shadow: inset 0 0 0 2px @tone_lightest;
@@ -54,7 +54,7 @@ window.background.maximized > grid.horizontal widget scrolledwindow > viewport.f
 
 window.background > grid.horizontal scrolledwindow > viewport.frame scrolledwindow > viewport.frame box > grid > grid > toolbar button:disabled,
 window.background > grid.horizontal scrolledwindow > viewport.frame scrolledwindow > viewport.frame box > toolbar button:disabled,
-window.background.maximized > grid.horizontal widget scrolledwindow > viewport.frame box > toolbar button:disabled {
+window.background > grid.horizontal widget scrolledwindow > viewport.frame box > toolbar button:disabled {
     background-color: @tone_darkest;
     border: 2px solid @tone_dark;
     box-shadow: inset 0 0 0 2px @tone_darkest;
