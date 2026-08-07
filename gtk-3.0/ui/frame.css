@@ -21,3 +21,11 @@ frame border {
     margin: 0;
     padding: 2px;
 }
+
+box.inline-toolbar {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_mid;
+    box-shadow: none;
+    margin: 2px 0;
+    padding: 2px;
+}
