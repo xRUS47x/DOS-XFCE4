@@ -9,6 +9,7 @@ toolbar {
 
 button.flat.image-button.text-button,
 button.image-button.flat,
+button.text-button.suggested-action.default,
 button.toggle.flat.image-button,
 button.toggle.flat.popup,
 button.toggle.flat.popup.toolbutton,
@@ -26,6 +27,7 @@ toolbar button {
 
 button.flat.image-button.text-button:hover,
 button.image-button.flat:hover,
+button.text-button.suggested-action.default:hover,
 button.toggle.flat.image-button:hover,
 button.toggle.flat.popup:hover,
 button.toggle.flat.popup.toolbutton:hover,
@@ -45,6 +47,8 @@ button.flat.image-button.text-button:active,
 button.flat.image-button.text-button:checked,
 button.image-button.flat:active,
 button.image-button.flat:checked,
+button.text-button.suggested-action.default:active,
+button.text-button.suggested-action.default:checked,
 button.toggle.flat.image-button:active,
 button.toggle.flat.image-button:checked,
 button.toggle.flat.popup:active,
@@ -67,6 +71,7 @@ toolbar button:checked {
 
 button.flat.image-button.text-button:disabled,
 button.image-button.flat:disabled,
+button.text-button.suggested-action.default:disabled,
 button.toggle.flat.image-button:disabled,
 button.toggle.flat.popup:disabled,
 button.toggle.flat.popup.toolbutton:disabled,
