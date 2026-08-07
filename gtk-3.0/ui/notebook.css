@@ -64,6 +64,10 @@ notebook > header {
     background-color: @tone_mid;
 }
 
+notebook > header:disabled {
+    background-color: @tone_dark;
+}
+
 notebook > header.top > tabs > tab,
 notebook > header.bottom > tabs > tab {
     background-color: @tone_mid;
@@ -162,4 +166,11 @@ notebook > header.right > tabs > tab:disabled {
     min-height: 24px;
     min-width: 24px;
     padding: 5px;
+}
+
+notebook > header.top > tabs > tab:disabled > label,
+notebook > header.bottom > tabs > tab:disabled > label,
+notebook > header.left > tabs > tab:disabled > label,
+notebook > header.right > tabs > tab:disabled > label {
+    color: @tone_mid;
 }
