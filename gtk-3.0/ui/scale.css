@@ -22,9 +22,27 @@ scale trough {
     padding: 5px 5px;
 }
 
+scale trough:disabled {
+    background-color: @tone_darkest;
+    border: 2px solid @tone_dark;
+    border-radius: 0px;
+    box-shadow: inset 0 0 0 4px @tone_dark, inset 0 0 0 2px @tone_darkest;
+    margin: 0px;
+    padding: 5px 5px;
+}
+
 scale highlight {
     background-color: @tone_light;
     border: 2px solid @tone_light;
+    border-radius: 0px;
+    box-shadow: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+scale highlight:disabled {
+    background-color: @tone_dark;
+    border: 2px solid @tone_dark;
     border-radius: 0px;
     box-shadow: none;
     margin: 0px;
@@ -57,7 +75,7 @@ scale slider:checked {
 }
 
 scale slider:disabled {
-    background-color: @tone_dark;
+    background-color: @tone_darkest;
     border: 2px solid @tone_dark;
     border-radius: 0px;
     margin: -11px -11px;
