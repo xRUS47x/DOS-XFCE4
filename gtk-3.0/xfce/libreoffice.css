@@ -1,3 +1,7 @@
+window.background > grid.horizontal > grid.horizontal {
+    background-color: @tone_mid;
+}
+
 window.background > grid.horizontal widget scrolledwindow > viewport.frame grid.horizontal > grid.horizontal > box.vertical > scrolledwindow.frame {
     border: 1px solid @tone_mid;
     margin: 0;
